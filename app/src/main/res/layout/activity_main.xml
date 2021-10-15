@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etBr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etBr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/bTimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Times" />
+
+    <Button
+        android:id="@+id/bPi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pi" />
+
+    <Button
+        android:id="@+id/bToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+
+    <Button
+        android:id="@+id/bDanas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danas je..." />
+
+</LinearLayout>
